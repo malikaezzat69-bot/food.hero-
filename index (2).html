@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FoodHero - Turn safe surplus food into useful meals.">
+  <title>FoodHero | Turn Surplus Into Impact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo">
+      <span class="logo-icon">🥕</span>
+      <span>Food<span>Hero</span></span>
+    </a>
+
+    <nav class="nav">
+      <a href="#problem">The Problem</a>
+      <a href="#how">How It Works</a>
+      <a href="#donate">Donate</a>
+      <a href="#impact">Impact</a>
+    </nav>
+
+    <a href="#donate" class="nav-btn">Donate Food →</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="eyebrow"><span></span> AI + FOOD WASTE + SOCIAL IMPACT</div>
+        <h1>Good food<br><em>deserves</em> a second chance.</h1>
+        <p>
+          FoodHero is a concept platform that helps restaurants, schools,
+          supermarkets and events connect safe surplus food with organizations
+          that can use it.
+        </p>
+        <div class="hero-actions">
+          <a href="#donate" class="primary-btn">Donate Surplus Food <b>↗</b></a>
+          <a href="#how" class="text-btn">See how it works <span>↓</span></a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>01</strong><span>Share donation details</span></div>
+          <div><strong>02</strong><span>AI finds the best match</span></div>
+          <div><strong>03</strong><span>Safe pickup, real impact</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="blob"></div>
+        <div class="floating-card card-top">
+          <span class="mini-icon">✨</span>
+          <div><b>Smart Match</b><small>Best organization found</small></div>
+        </div>
+        <div class="food-orbit">🥗</div>
+        <div class="plate">
+          <div class="plate-inner">
+            <span class="food food1">🥬</span>
+            <span class="food food2">🥕</span>
+            <span class="food food3">🍅</span>
+            <span class="food food4">🥦</span>
+            <span class="food food5">🍋</span>
+          </div>
+        </div>
+        <div class="floating-card card-bottom">
+          <span class="check">✓</span>
+          <div><b>Safe Donation</b><small>Food safety comes first</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="problem section" id="problem">
+      <div class="section-label">01 — THE PROBLEM</div>
+      <div class="two-col">
+        <div>
+          <h2>Useful food shouldn't end in the bin.</h2>
+        </div>
+        <div>
+          <p class="lead">
+            Every day, safe surplus food can be left unused while community
+            organizations need resources. FoodHero turns that gap into an
+            opportunity to connect people, food and communities.
+          </p>
+          <div class="problem-points">
+            <div><span>01</span><b>Surplus happens</b><p>Restaurants, schools, supermarkets and events can have extra food.</p></div>
+            <div><span>02</span><b>Needs are nearby</b><p>Organizations may have different needs, capacities and pickup times.</p></div>
+            <div><span>03</span><b>Matching is difficult</b><p>FoodHero makes the concept of finding a suitable match simpler.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how section" id="how">
+      <div class="section-heading">
+        <div>
+          <div class="section-label">02 — HOW IT WORKS</div>
+          <h2>From extra food<br>to useful meals.</h2>
+        </div>
+        <p>Three simple steps show how the FoodHero concept connects a donation with a suitable organization.</p>
+      </div>
+
+      <div class="steps">
+        <article class="step-card">
+          <div class="step-number">01</div>
+          <div class="step-icon">📦</div>
+          <h3>Share the donation</h3>
+          <p>Enter the food type, quantity, pickup time and location.</p>
+        </article>
+
+        <article class="step-card featured">
+          <div class="step-number">02</div>
+          <div class="step-icon">🤖</div>
+          <h3>AI compares</h3>
+          <p>The concept compares needs, capacity, distance and timing.</p>
+          <div class="match-line">AI MATCHING <span>✦</span></div>
+        </article>
+
+        <article class="step-card">
+          <div class="step-number">03</div>
+          <div class="step-icon">🤝</div>
+          <h3>Find the best match</h3>
+          <p>FoodHero suggests organizations that could receive the donation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="donate section" id="donate">
+      <div class="donate-wrap">
+        <div class="donate-copy">
+          <div class="section-label light">03 — MAKE A DONATION</div>
+          <h2>Have safe surplus food?</h2>
+          <p>Tell FoodHero what you have. This concept demo shows the information an AI matching system could use.</p>
+          <div class="safe-note">
+            <span>✓</span>
+            <div><b>Food safety first</b><small>Only safe food that follows local food-safety rules should be donated.</small></div>
+          </div>
+        </div>
+
+        <form class="donation-form">
+          <div class="form-grid">
+            <label>Food type
+              <input type="text" placeholder="e.g. Packaged meals">
+            </label>
+            <label>Quantity
+              <input type="text" placeholder="e.g. 40 meals">
+            </label>
+            <label>Pickup time
+              <input type="text" placeholder="e.g. Today, 5:00 PM">
+            </label>
+            <label>Location
+              <input type="text" placeholder="e.g. School / Area">
+            </label>
+          </div>
+          <label>Contact
+            <input type="text" placeholder="Name or organization">
+          </label>
+          <button type="button" class="submit-btn">Find My Best Match <span>→</span></button>
+          <p class="form-note">Concept demo — the form is visual only.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="matches section">
+      <div class="section-heading">
+        <div>
+          <div class="section-label">04 — ORGANIZATION MATCHES</div>
+          <h2>Potential matches.</h2>
+        </div>
+        <p>A visual example of how FoodHero could present possible receiving organizations.</p>
+      </div>
+
+      <div class="match-grid">
+        <article class="org-card">
+          <div class="org-head"><div class="org-logo green">CK</div><span class="available">● Available</span></div>
+          <h3>Community Kitchen</h3>
+          <p>Local community meals</p>
+          <div class="org-info"><span>📍 2.4 km</span><span>🍲 Needs: Meals</span></div>
+          <div class="capacity"><span>Pickup today</span><b>5:00 PM</b></div>
+        </article>
+
+        <article class="org-card">
+          <div class="org-head"><div class="org-logo orange">HS</div><span class="available">● Available</span></div>
+          <h3>Hope Shelter</h3>
+          <p>Community support center</p>
+          <div class="org-info"><span>📍 3.1 km</span><span>🍱 Needs: Packaged food</span></div>
+          <div class="capacity"><span>Pickup today</span><b>6:00 PM</b></div>
+        </article>
+
+        <article class="org-card">
+          <div class="org-head"><div class="org-logo purple">FC</div><span class="soon">● Limited</span></div>
+          <h3>Family Center</h3>
+          <p>Family community center</p>
+          <div class="org-info"><span>📍 4.7 km</span><span>🥗 Needs: Fresh food</span></div>
+          <div class="capacity"><span>Pickup today</span><b>7:00 PM</b></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="impact section" id="impact">
+      <div class="impact-card">
+        <div>
+          <div class="section-label light">05 — THE IMPACT</div>
+          <h2>Small connections.<br><em>Meaningful impact.</em></h2>
+        </div>
+        <div class="impact-items">
+          <div><strong>01</strong><span>Less useful food wasted</span></div>
+          <div><strong>02</strong><span>More community support</span></div>
+          <div><strong>03</strong><span>Smarter matching with AI</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <div class="logo"><span class="logo-icon">🥕</span><span>Food<span>Hero</span></span></div>
+      <p>Turn safe surplus food into useful meals.</p>
+    </div>
+    <div class="footer-right">
+      <span>AI + Food Waste + Social Impact</span>
+      <span>Level 2 Final Project</span>
+    </div>
+  </footer>
+
+</body>
+</html>
